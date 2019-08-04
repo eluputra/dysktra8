@@ -400,6 +400,7 @@ namespace ContosoUniversity.Controllers
 
         // GET: Departments/Delete/5
         //update the delete method
+
         // The method accepts an optional parameter that indicates whether the page is being redisplayed after a concurrency error.
         public async Task<IActionResult> Delete(int? id, bool? concurrencyError)
         {
