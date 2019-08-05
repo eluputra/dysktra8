@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
 
-// notes in dysktra7 we will learn about Tutorial: Update related data - ASP.NET MVC with EF Core
+// notes in dysktra8 Handle concurrency
 // fixing my mistake from last week
 namespace ContosoUniversity
 {

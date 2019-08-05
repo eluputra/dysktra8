@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<ContosoUniversity.Models.Department>
 
 @{
-    ViewData["Title"] = "Departments";
+    ViewData["Title"] = "Departments"; <!-- added title-->
 }
 <!-- updated the page of department-->
 <h2>Departments</h2>
@@ -47,7 +47,7 @@
                     @Html.DisplayFor(modelItem => item.RowVersion)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Administrator.FullName)
+                    @Html.DisplayFor(modelItem => item.Administrator.FullName) <!-- displaying with full name not first and mid anymore-->
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.DepartmentID">Edit</a> |
